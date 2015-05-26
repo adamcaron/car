@@ -1,7 +1,5 @@
 class Car
-  attr_accessor :color
-  attr_accessor :wheel_count
-  attr_accessor :running
+  attr_accessor :color, :wheel_count, :running
 
   def initialize
     @running = false
